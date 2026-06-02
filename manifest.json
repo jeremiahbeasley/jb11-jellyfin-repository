@@ -1,0 +1,20 @@
+[
+  {
+    "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Library Importer",
+    "description": "Bulk-imports and manages movie/TV metadata from disk, TMDB, and TVDB. Supports scheduled scans, custom overrides, duplicate resolution, and orphan purging.",
+    "overview": "Import and manage library metadata from disk, TMDB, and TVDB",
+    "owner": "jeremiahbeasley",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-libraryimporter/releases/download/v1.0.0/LibraryImporter_1.0.0.0.zip",
+        "checksum": "a5a0f6ce9e39df85151179dcb2e24ee1",
+        "timestamp": "2026-06-01T00:00:00Z"
+      }
+    ]
+  }
+]
