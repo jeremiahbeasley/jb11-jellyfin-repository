@@ -16,5 +16,77 @@
         "timestamp": "2026-06-01T00:00:00"
       }
     ]
+  },
+  {
+    "name": "A11y-Custom Tabs",
+    "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
+    "description": "Accessibility fork of Custom Tabs. Adds WCAG 2.2 A/AA fixes and TV remote focus support to custom sidebar tabs in Jellyfin.",
+    "overview": "Custom sidebar tabs with WCAG 2.2 accessibility improvements",
+    "owner": "jeremiahbeasley",
+    "category": "General",
+    "versions": [
+      {
+        "changelog": "A11y fork: WCAG 2.2 A/AA fixes, TV remote focus highlight, tab creation fix for emby-button Custom Elements",
+        "targetAbi": "10.11.0.0",
+        "version": "0.2.0.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/A11y-Custom-Tabs/releases/download/v0.2.0.0/A11yCustomTabs_0.2.0.0.zip",
+        "checksum": "282CA525511B3244FD7CD97F6FC242D9",
+        "timestamp": "2026-06-05T00:00:00"
+      }
+    ]
+  },
+  {
+    "name": "A11y-BetterSeerrTabs",
+    "guid": "c8e4f2a1-9b3d-4e7f-a6c2-1d5e8f0a3b7c",
+    "description": "Accessibility fork of BetterSeerrTabs. Adds WCAG 2.2 A/AA fixes and TV remote support to the Jellyseerr request integration.",
+    "overview": "Jellyseerr request tabs with WCAG 2.2 accessibility improvements",
+    "owner": "jeremiahbeasley",
+    "category": "General",
+    "versions": [
+      {
+        "changelog": "A11y fork: WCAG 2.2 A/AA fixes, TV remote support for injected UI",
+        "targetAbi": "10.11.0.0",
+        "version": "1.4.2.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/A11y-BetterSeerrTabs/releases/download/v1.4.2.0/A11yBetterSeerrTabs_1.4.2.0.zip",
+        "checksum": "F606B961C366DFAECCEC9AE472AEF72E",
+        "timestamp": "2026-06-05T00:00:00"
+      }
+    ]
+  },
+  {
+    "name": "Audiobook Metadata Provider",
+    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "description": "Provides Audible metadata and cover art for AudioBook items via the Audnexus API.",
+    "overview": "Audnexus-powered audiobook metadata and cover art",
+    "owner": "jeremiahbeasley",
+    "category": "Metadata",
+    "versions": [
+      {
+        "changelog": "Initial release: Audnexus API client replacing Audible scraper, audiobook image provider",
+        "targetAbi": "10.11.0.0",
+        "version": "1.0.0.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-audiobook-metadata/releases/download/v1.0.0.0/AudiobookMetadata_1.0.0.0.zip",
+        "checksum": "46D05B57A44873F80014372778D75FC6",
+        "timestamp": "2026-06-05T00:00:00"
+      }
+    ]
+  },
+  {
+    "name": "Bookshelf",
+    "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
+    "description": "Provides metadata for book and comic libraries via Google Books, ComicVine, and Open Library.",
+    "overview": "Book and comic metadata from Google Books, ComicVine, and Open Library",
+    "owner": "jeremiahbeasley",
+    "category": "Metadata",
+    "versions": [
+      {
+        "changelog": "jb11 fork initial release",
+        "targetAbi": "10.11.0.0",
+        "version": "1.0.0.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-bookshelf/releases/download/v1.0.0.0/Bookshelf_1.0.0.0.zip",
+        "checksum": "EED7EE35EC59C0907AFBC86638ABA0B9",
+        "timestamp": "2026-06-05T00:00:00"
+      }
+    ]
   }
 ]
