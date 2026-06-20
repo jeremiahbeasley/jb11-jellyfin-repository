@@ -106,5 +106,23 @@
         "timestamp": "2026-06-05T00:00:00"
       }
     ]
+  },
+  {
+    "name": "Audio Description Badges",
+    "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "description": "Displays a visual and screen-reader-accessible badge on library cards for media that contains an Audio Description audio track. WCAG 2.2 compliant: 7.5:1 contrast ratio, role=\"img\" + aria-label, Windows High Contrast Mode support, polite ARIA live region, reduced-motion support.",
+    "overview": "WCAG 2.2 compliant Audio Description badges on Jellyfin library cards",
+    "owner": "jeremiahbeasley",
+    "category": "Accessibility",
+    "versions": [
+      {
+        "changelog": "Initial release",
+        "targetAbi": "10.9.0.0",
+        "version": "1.0.2.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.2/Jellyfin.Plugin.AudioDescription-v1.0.2.zip",
+        "checksum": "5C25F25D0F5B831D127D0AE5A0D0BC9B",
+        "timestamp": "2026-06-19T00:00:00"
+      }
+    ]
   }
 ]
