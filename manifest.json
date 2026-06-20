@@ -113,7 +113,7 @@
     "description": "Displays a visual and screen-reader-accessible badge on library cards for media that contains an Audio Description audio track. WCAG 2.2 compliant: 7.5:1 contrast ratio, role=\"img\" + aria-label, Windows High Contrast Mode support, polite ARIA live region, reduced-motion support.",
     "overview": "WCAG 2.2 compliant Audio Description badges on Jellyfin library cards",
     "owner": "jeremiahbeasley",
-    "category": "Accessibility",
+    "category": "General",
     "versions": [
       {
         "changelog": "Initial release",
