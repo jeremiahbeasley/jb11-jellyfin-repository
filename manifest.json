@@ -1,128 +1,128 @@
 [
-  {
-    "name": "A11y Book Reader",
-    "guid": "19ba7210-d7de-4c86-afbb-4e3d596abe16",
-    "description": "Accessible in-browser reader for EPUB, PDF, Word/PowerPoint (modern and 97-2003), OpenDocument, FB2, RTF, DAISY talking books, plain text/HTML, and Braille. Built to WCAG 2.2 A/AA: keyboard and TV-remote operable, screen-reader semantics, offline Piper neural text-to-speech with synced word highlighting, per-user resume across devices, and customizable display. Fully self-contained, no companion plugin required.",
-    "overview": "Accessible WCAG 2.2 book and document reader with offline text-to-speech",
-    "owner": "jeremiahbeasley",
-    "category": "General",
-    "versions": [
-      {
-        "changelog": "Self-contained: drops the File Transformation dependency via its own injection middleware. Adds Braille (.brf/.brl) reading with a print toggle and accurate UEB back-translation. Ships as one merged DLL.",
-        "targetAbi": "10.11.10.0",
-        "version": "1.0.0.73",
-        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-a11y-book-reader/releases/download/v1.0.0.73/A11yBookReader_1.0.0.73.zip",
-        "checksum": "C4282FC47867602403BBDB42F5C6A9A8",
-        "timestamp": "2026-06-13T00:00:00"
-      }
-    ]
-  },
-  {
-    "name": "Library Importer",
-    "guid": "b74b2d8c-2ab3-411f-9631-c5e8270d7e12",
-    "description": "Bulk-imports and manages movie/TV metadata from disk, TMDB, and TVDB. Supports scheduled scans, custom overrides, duplicate resolution, and orphan purging.",
-    "overview": "Import and manage library metadata from disk, TMDB, and TVDB",
-    "owner": "jeremiahbeasley",
-    "category": "Metadata",
-    "versions": [
-      {
-        "changelog": "JSON type-safety fixes, quiet persistence, skip fast-path for movies+TV, config page improvements",
-        "targetAbi": "10.11.0.0",
-        "version": "1.0.1.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-libraryimporter/releases/download/v1.0.1.0/LibraryImporter_1.0.1.0.zip",
-        "checksum": "329215CD79870763AFCDE7C49E7BD455",
-        "timestamp": "2026-06-05T00:00:00"
-      }
-    ]
-  },
-  {
-    "name": "A11y-Custom Tabs",
-    "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
-    "description": "Accessibility fork of Custom Tabs. Adds WCAG 2.2 A/AA fixes and TV remote focus support to custom sidebar tabs in Jellyfin.",
-    "overview": "Custom sidebar tabs with WCAG 2.2 accessibility improvements",
-    "owner": "jeremiahbeasley",
-    "category": "General",
-    "versions": [
-      {
-        "changelog": "A11y fork: WCAG 2.2 A/AA fixes, TV remote focus highlight, tab creation fix for emby-button Custom Elements",
-        "targetAbi": "10.11.0.0",
-        "version": "0.2.0.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/A11y-Custom-Tabs/releases/download/v0.2.0.0/A11yCustomTabs_0.2.0.0.zip",
-        "checksum": "282CA525511B3244FD7CD97F6FC242D9",
-        "timestamp": "2026-06-05T00:00:00"
-      }
-    ]
-  },
-  {
-    "name": "A11y-BetterSeerrTabs",
-    "guid": "c8e4f2a1-9b3d-4e7f-a6c2-1d5e8f0a3b7c",
-    "description": "Accessibility fork of BetterSeerrTabs. Adds WCAG 2.2 A/AA fixes and TV remote support to the Jellyseerr request integration.",
-    "overview": "Jellyseerr request tabs with WCAG 2.2 accessibility improvements",
-    "owner": "jeremiahbeasley",
-    "category": "General",
-    "versions": [
-      {
-        "changelog": "A11y fork: WCAG 2.2 A/AA fixes, TV remote support for injected UI",
-        "targetAbi": "10.11.0.0",
-        "version": "1.4.2.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/A11y-BetterSeerrTabs/releases/download/v1.4.2.0/A11yBetterSeerrTabs_1.4.2.0.zip",
-        "checksum": "F606B961C366DFAECCEC9AE472AEF72E",
-        "timestamp": "2026-06-05T00:00:00"
-      }
-    ]
-  },
-  {
-    "name": "Audiobook Metadata Provider",
-    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
-    "description": "Provides Audible metadata and cover art for AudioBook items via the Audnexus API.",
-    "overview": "Audnexus-powered audiobook metadata and cover art",
-    "owner": "jeremiahbeasley",
-    "category": "Metadata",
-    "versions": [
-      {
-        "changelog": "Initial release: Audnexus API client replacing Audible scraper, audiobook image provider",
-        "targetAbi": "10.11.0.0",
-        "version": "1.0.0.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-audiobook-metadata/releases/download/v1.0.0.0/AudiobookMetadata_1.0.0.0.zip",
-        "checksum": "46D05B57A44873F80014372778D75FC6",
-        "timestamp": "2026-06-05T00:00:00"
-      }
-    ]
-  },
-  {
-    "name": "Bookshelf",
-    "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
-    "description": "Provides metadata for book and comic libraries via Google Books, ComicVine, and Open Library.",
-    "overview": "Book and comic metadata from Google Books, ComicVine, and Open Library",
-    "owner": "jeremiahbeasley",
-    "category": "Metadata",
-    "versions": [
-      {
-        "changelog": "jb11 fork initial release",
-        "targetAbi": "10.11.0.0",
-        "version": "1.0.0.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-bookshelf/releases/download/v1.0.0.0/Bookshelf_1.0.0.0.zip",
-        "checksum": "EED7EE35EC59C0907AFBC86638ABA0B9",
-        "timestamp": "2026-06-05T00:00:00"
-      }
-    ]
-  },
-  {
-    "name": "Audio Description Badges",
-    "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-    "description": "Displays a visual and screen-reader-accessible badge on library cards for media that contains an Audio Description audio track. WCAG 2.2 compliant: 7.5:1 contrast ratio, role=\"img\" + aria-label, Windows High Contrast Mode support, polite ARIA live region, reduced-motion support.",
-    "overview": "WCAG 2.2 compliant Audio Description badges on Jellyfin library cards",
-    "owner": "jeremiahbeasley",
-    "category": "General",
-    "versions": [
-      {
-        "changelog": "Initial release",
-        "targetAbi": "10.9.0.0",
-        "version": "1.0.2.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.2/Jellyfin.Plugin.AudioDescription-v1.0.2.zip",
-        "checksum": "5C25F25D0F5B831D127D0AE5A0D0BC9B",
-        "timestamp": "2026-06-19T00:00:00"
-      }
-    ]
-  }
+{
+"name": "A11y Book Reader",
+"guid": "19ba7210-d7de-4c86-afbb-4e3d596abe16",
+"description": "Accessible in-browser reader for EPUB, PDF, Word/PowerPoint (modern and 97-2003), OpenDocument, FB2, RTF, DAISY talking books, plain text/HTML, and Braille. Built to WCAG 2.2 A/AA: keyboard and TV-remote operable, screen-reader semantics, offline Piper neural text-to-speech with synced word highlighting, per-user resume across devices, and customizable display. Fully self-contained, no companion plugin required.",
+"overview": "Accessible WCAG 2.2 book and document reader with offline text-to-speech",
+"owner": "jeremiahbeasley",
+"category": "General",
+"versions": [
+{
+"changelog": "Self-contained: drops the File Transformation dependency via its own injection middleware. Adds Braille (.brf/.brl) reading with a print toggle and accurate UEB back-translation. Ships as one merged DLL.",
+"targetAbi": "10.11.10.0",
+"version": "1.0.0.73",
+"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-a11y-book-reader/releases/download/v1.0.0.73/A11yBookReader_1.0.0.73.zip",
+"checksum": "C4282FC47867602403BBDB42F5C6A9A8",
+"timestamp": "2026-06-13T00:00:00"
+}
+]
+},
+{
+"name": "Library Importer",
+"guid": "b74b2d8c-2ab3-411f-9631-c5e8270d7e12",
+"description": "Bulk-imports and manages movie/TV metadata from disk, TMDB, and TVDB. Supports scheduled scans, custom overrides, duplicate resolution, and orphan purging.",
+"overview": "Import and manage library metadata from disk, TMDB, and TVDB",
+"owner": "jeremiahbeasley",
+"category": "Metadata",
+"versions": [
+{
+"changelog": "JSON type-safety fixes, quiet persistence, skip fast-path for movies+TV, config page improvements",
+"targetAbi": "10.11.0.0",
+"version": "1.0.1.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-libraryimporter/releases/download/v1.0.1.0/LibraryImporter_1.0.1.0.zip",
+"checksum": "329215CD79870763AFCDE7C49E7BD455",
+"timestamp": "2026-06-05T00:00:00"
+}
+]
+},
+{
+"name": "A11y-Custom Tabs",
+"guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
+"description": "Accessibility fork of Custom Tabs. Adds WCAG 2.2 A/AA fixes and TV remote focus support to custom sidebar tabs in Jellyfin.",
+"overview": "Custom sidebar tabs with WCAG 2.2 accessibility improvements",
+"owner": "jeremiahbeasley",
+"category": "General",
+"versions": [
+{
+"changelog": "A11y fork: WCAG 2.2 A/AA fixes, TV remote focus highlight, tab creation fix for emby-button Custom Elements",
+"targetAbi": "10.11.0.0",
+"version": "0.2.0.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/A11y-Custom-Tabs/releases/download/v0.2.0.0/A11yCustomTabs_0.2.0.0.zip",
+"checksum": "282CA525511B3244FD7CD97F6FC242D9",
+"timestamp": "2026-06-05T00:00:00"
+}
+]
+},
+{
+"name": "A11y-BetterSeerrTabs",
+"guid": "c8e4f2a1-9b3d-4e7f-a6c2-1d5e8f0a3b7c",
+"description": "Accessibility fork of BetterSeerrTabs. Adds WCAG 2.2 A/AA fixes and TV remote support to the Jellyseerr request integration.",
+"overview": "Jellyseerr request tabs with WCAG 2.2 accessibility improvements",
+"owner": "jeremiahbeasley",
+"category": "General",
+"versions": [
+{
+"changelog": "A11y fork: WCAG 2.2 A/AA fixes, TV remote support for injected UI",
+"targetAbi": "10.11.0.0",
+"version": "1.4.2.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/A11y-BetterSeerrTabs/releases/download/v1.4.2.0/A11yBetterSeerrTabs_1.4.2.0.zip",
+"checksum": "F606B961C366DFAECCEC9AE472AEF72E",
+"timestamp": "2026-06-05T00:00:00"
+}
+]
+},
+{
+"name": "Audiobook Metadata Provider",
+"guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+"description": "Provides Audible metadata and cover art for AudioBook items via the Audnexus API.",
+"overview": "Audnexus-powered audiobook metadata and cover art",
+"owner": "jeremiahbeasley",
+"category": "Metadata",
+"versions": [
+{
+"changelog": "Initial release: Audnexus API client replacing Audible scraper, audiobook image provider",
+"targetAbi": "10.11.0.0",
+"version": "1.0.0.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-audiobook-metadata/releases/download/v1.0.0.0/AudiobookMetadata_1.0.0.0.zip",
+"checksum": "46D05B57A44873F80014372778D75FC6",
+"timestamp": "2026-06-05T00:00:00"
+}
+]
+},
+{
+"name": "Bookshelf",
+"guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
+"description": "Provides metadata for book and comic libraries via Google Books, ComicVine, and Open Library.",
+"overview": "Book and comic metadata from Google Books, ComicVine, and Open Library",
+"owner": "jeremiahbeasley",
+"category": "Metadata",
+"versions": [
+{
+"changelog": "jb11 fork initial release",
+"targetAbi": "10.11.0.0",
+"version": "1.0.0.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-bookshelf/releases/download/v1.0.0.0/Bookshelf_1.0.0.0.zip",
+"checksum": "EED7EE35EC59C0907AFBC86638ABA0B9",
+"timestamp": "2026-06-05T00:00:00"
+}
+]
+},
+{
+"name": "Audio Description Badges",
+"guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+"description": "Displays a visual and screen-reader-accessible badge on library cards for media that contains an Audio Description audio track. WCAG 2.2 compliant: 7.5:1 contrast ratio, role=\"img\" + aria-label, Windows High Contrast Mode support, polite ARIA live region, reduced-motion support.",
+"overview": "WCAG 2.2 compliant Audio Description badges on Jellyfin library cards",
+"owner": "jeremiahbeasley",
+"category": "General",
+"versions": [
+{
+"changelog": "Rebuilt for Jellyfin 10.11.x / .NET 9",
+"targetAbi": "10.11.0.0",
+"version": "1.0.3.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.3/Jellyfin.Plugin.AudioDescription-v1.0.3.zip",
+"checksum": "4E7CB609FF3469C24156DC955C19E05E",
+"timestamp": "2026-06-19T00:00:00"
+}
+]
+}
 ]
