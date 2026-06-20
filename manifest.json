@@ -116,11 +116,11 @@
 "category": "General",
 "versions": [
 {
-"changelog": "Fix GUID collision with Xtream Library; rebuilt for Jellyfin 10.11.x / .NET 9",
+"changelog": "Fix GUID collision with Xtream Library; fix config page GUID; rebuilt for Jellyfin 10.11.x / .NET 9",
 "targetAbi": "10.11.0.0",
-"version": "1.0.4.0",
-"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.4/Jellyfin.Plugin.AudioDescription-v1.0.4.zip",
-"checksum": "7DA4B56FD5209DEB526F1A472A81EA84",
+"version": "1.0.5.0",
+"sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.5/Jellyfin.Plugin.AudioDescription-v1.0.5.zip",
+"checksum": "C0ECD47430D6CAADA611ECA35DF96585",
 "timestamp": "2026-06-19T00:00:00"
 }
 ]
