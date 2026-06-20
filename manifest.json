@@ -18,24 +18,6 @@
     ]
   },
   {
-    "name": "Audio Description Badges",
-    "guid": "3c8f7e2a-d4b9-4e6f-a1c5-8d9e0b7a6c4d",
-    "description": "Displays a visual and screen-reader-accessible badge on library cards for media that contains an Audio Description audio track. WCAG 2.2 compliant: 7.5:1 contrast ratio, role=\"img\" + aria-label, Windows High Contrast Mode support, reduced-motion support.",
-    "overview": "WCAG 2.2 compliant Audio Description badges on Jellyfin library cards",
-    "owner": "jeremiahbeasley",
-    "category": "General",
-    "versions": [
-      {
-        "changelog": "Fix config page rendering (data-role=page), add sidebar menu entry, correct assembly version to 1.0.6.0",
-        "targetAbi": "10.11.0.0",
-        "version": "1.0.6.0",
-        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.6/Jellyfin.Plugin.AudioDescription-v1.0.6.zip",
-        "checksum": "8A1F188722B11DC4C78AC0BDF5291335",
-        "timestamp": "2026-06-20T00:00:00"
-      }
-    ]
-  },
-  {
     "name": "Library Importer",
     "guid": "b74b2d8c-2ab3-411f-9631-c5e8270d7e12",
     "description": "Bulk-imports and manages movie/TV metadata from disk, TMDB, and TVDB. Supports scheduled scans, custom overrides, duplicate resolution, and orphan purging.",
@@ -122,6 +104,25 @@
         "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-plugin-bookshelf/releases/download/v1.0.0.0/Bookshelf_1.0.0.0.zip",
         "checksum": "EED7EE35EC59C0907AFBC86638ABA0B9",
         "timestamp": "2026-06-05T00:00:00"
+      }
+    ]
+  },
+  {
+    "name": "Audio Description Badges",
+    "guid": "3c8f7e2a-d4b9-4e6f-a1c5-8d9e0b7a6c4d",
+    "description": "Displays an audio description (AD) badge on media items that have an audio description track, helping users identify accessible content at a glance.",
+    "overview": "Show AD badges on media items with audio description tracks",
+    "owner": "jeremiahbeasley",
+    "category": "General",
+    "imageUrl": "https://castus.tv/wp-content/uploads/2026/01/AD-on-Background.png",
+    "versions": [
+      {
+        "version": "1.0.7.0",
+        "changelog": "Fix config page not rendering — corrected page div class to match Jellyfin SPA requirements",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jeremiahbeasley/jellyfin-audio-description-plugin/releases/download/v1.0.7/Jellyfin.Plugin.AudioDescription-v1.0.7.zip",
+        "checksum": "CDDCF43249CB11C944FDE05FE93889EE",
+        "timestamp": "2026-06-20T00:00:00"
       }
     ]
   }
